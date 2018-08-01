@@ -3,13 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Tran Trong Thanh's Data Visualization Collections">
+	<meta name="author" content="Tran Trong Thanh">
 	<link rel="icon" href="/favicon.ico">
+	<link rel="canonical" href="https://viz.int3ractive.com/">
+	<link rel="pingback" href="https://webmention.io/int3ractive.com/xmlrpc" />
+	<link rel="webmention" href="https://webmention.io/int3ractive.com/webmention" />
 
 	<title>T3 ❤️ Data Viz - Tran Trong Thanh's Data Visualization Collections - Int3ractive.com</title>
 	<!--
-		Looking for source code example? This is the Album template from Bootstrap 4 Examples collection.
+		Are you looking for source code example? This is the Album template from Bootstrap 4 Examples collection.
 		Obviously, I'm just copying the template to quickly setup a display for my Data Visualization
 		collection and this (the album page) is not my best hand-coded, optimized showcase.
 	-->
@@ -19,18 +22,29 @@
 
 	<!-- Custom styles for this template -->
 	<link href="/css/index.css" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4430452-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-4430452-13');
+	</script>
+
 </head>
 
 <body>
 	<header id="top">
-		<div class="collapse bg-dark" id="navbarHeader">
+		<div class="collapse bg-dark" id="navbar-header">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-md-7 py-4">
 						<h4 class="text-white">About</h4>
 						<p class="text-muted">
 							Besides UI and animations, I have always fancied data visualizations.
-							"Data viz" turns boring numbers into meaningful presentations that help users distill information, enlighten facts and is the key tool to get to the top of the <a href="https://en.wikipedia.org/wiki/DIKW_pyramid" target="_blank">DIKW pyramid</a>. I'm welcoming any chances to work with projects involving data visualization and interactive infographics.
+							This is a small landing page to showcase my side projects and code doodle which are all related to data viz. By the way, I'm welcoming any chances to work with projects involving data visualization and interactive infographics.
 						</p>
 					</div>
 					<div class="col-sm-4 offset-md-1 py-4">
@@ -38,7 +52,7 @@
 						<ul class="list-unstyled">
 							<li><a href="https://int3ractive.com/about" target="_blank" class="text-white">About Me</a></li>
 							<li><a href="https://twitter.com/trongthanh" target="_blank" class="text-white">My Twitter</a></li>
-							<li><a href="https://facebook.com/trongthanh" target="_blank" class="text-white">My Facebook</a></li>
+							<li><a href="https://linkedin.com/in/trongthanh/" target="_blank" class="text-white">My LinkedIn</a></li>
 							<li><a href="mai&#108;to&#58;%&#55;&#52;ro&#110;%67&#37;74&#104;a&#110;h&#64;gma&#37;6&#57;l&#46;com" target="_blank" class="text-white">My Email</a></li>
 						</ul>
 					</div>
@@ -50,7 +64,7 @@
 				<a href="https://int3ractive.com" class="navbar-brand d-flex align-items-center" title="To My home page">
 					<strong>Int3ractive</strong>
 				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 			</div>
@@ -67,7 +81,7 @@
 				</p>
 				<p>
 					<a href="#grid" class="btn btn-primary my-2 js-anchor">Explore the Collection</a>
-					<a href="#" class="btn btn-secondary my-2" data-toggle="collapse" data-target="#navbarHeader">Contact Me</a>
+					<a href="#top" class="btn btn-secondary my-2 js-anchor" data-toggle="collapse" data-target="#navbar-header">Contact Me</a>
 				</p>
 			</div>
 		</section>
@@ -77,7 +91,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="card mb-4 box-shadow">
-							<a href="https://naustud.io/tech-stack/" target="_blank">
+							<a class="card-thumb-link" href="https://naustud.io/tech-stack/" target="_blank">
 								<img class="card-img-top" src="img/thumb-techstack.png" alt="Nau Tech Stack">
 							</a>
 							<div class="card-body">
@@ -87,14 +101,15 @@
 										<a href="https://naustud.io/tech-stack/" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 										<a href="https://github.com/naustudio/techstack" target="_blank" class="btn btn-sm btn-outline-secondary">Source</a>
 									</div>
-									<small class="text-muted">Forced Layout</small>
+									<small class="text-muted">D3, forced layout</small>
 								</div>
 							</div>
 						</div><!-- /.card.mb-4.box-shadow -->
 					</div><!-- /.col-md-4 -->
+
 					<div class="col-md-4">
 						<div class="card mb-4 box-shadow">
-							<a href="https://nhatkycuaca.neocities.org" target="_blank"><img class="card-img-top" src="img/thumb-nhatkycuaca.png" alt="Nhat Ky Cua Ca"></a>
+							<a class="card-thumb-link" href="https://nhatkycuaca.neocities.org" target="_blank"><img class="card-img-top" src="img/thumb-nhatkycuaca.png" alt="Nhat Ky Cua Ca"></a>
 							<div class="card-body">
 								<p class="card-text">Nhật Ký Của Cá</p>
 								<div class="d-flex justify-content-between align-items-center">
@@ -103,6 +118,22 @@
 										<a href="https://timeline.knightlab.com/" target="_blank" class="btn btn-sm btn-outline-secondary">Source</a>
 									</div>
 									<small class="text-muted">timeline.js</small>
+								</div>
+							</div>
+						</div><!-- /.card.mb-4.box-shadow -->
+					</div><!-- /.col-md-4 -->
+
+					<div class="col-md-4">
+						<div class="card mb-4 box-shadow">
+							<a class="card-thumb-link" href="https://int3ractive.com/family-tree/" target="_blank"><img class="card-img-top" src="img/thumb-family-tree.png" alt="Family tree"></a>
+							<div class="card-body">
+								<p class="card-text">Trans Family Tree (WIP)</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<a href="https://int3ractive.com/family-tree/" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+										<a href="https://github.com/trongthanh/family-tree" target="_blank" class="btn btn-sm btn-outline-secondary">Source</a>
+									</div>
+									<small class="text-muted">D3, tree layout</small>
 								</div>
 							</div>
 						</div><!-- /.card.mb-4.box-shadow -->
@@ -119,7 +150,7 @@
 			<p class="float-right">
 				<a href="#top" class="js-anchor">Back to top</a>
 			</p>
-			<p>© 2018 <a href="https://int3ractive.com">Tran Trong Thanh</a>. Made in Vietnam.</p>
+			<p>© 2018 <a href="https://int3ractive.com">Tran Trong Thanh</a>. Licensed under GPLv3. Made in Saigon, Vietnam.</p>
 		</div>
 	</footer>
 
