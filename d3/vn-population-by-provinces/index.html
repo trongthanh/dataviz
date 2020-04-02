@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Dân Số Việt Nam theo Địa Phương</title>
+	<meta name="description" content="Biểu đồ dân số, mật độ dân số Việt Nam theo địa phương qua các năm">
+	<meta property="og:url" content="https://">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Dân Số Việt Nam theo Địa Phương">
+	<meta property="og:description" content="Biểu đồ dân số, mật độ dân số Việt Nam theo địa phương qua các năm">
+	<meta property="og:image" content="">
+
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://cdn.polyfill.io/v2/polyfill.js?features=Array.prototype.find"></script>
+	<script src="/js/jquery-3.3.1.min.js"></script>
+	<script src="/js/d3.min.js"></script>
+	<script src="/js/d3-scale-chromatic.min.js"></script>
+	<script src="/js/d3-legend.min.js"></script>
+	<script src="/js/js-yaml.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<main class="container">
+		<div class="row">
+			<h1 class="col-12">Biểu đồ dân số Việt Nam theo địa phương</h1>
+			<div class="btn-toolbar col-12" role="toolbar" aria-label="Years Selection Control">
+				<div class="btn-group">
+					<button id="play-btn" class="btn btn-light">Play</button>
+					<button type="button" class="btn btn-secondary active">1995</button>
+					<button type="button" class="btn btn-secondary">1996</button>
+					<button type="button" class="btn btn-secondary">1997</button>
+					<button type="button" class="btn btn-secondary">1998</button>
+					<button type="button" class="btn btn-secondary">1999</button>
+					<button type="button" class="btn btn-secondary">2000</button>
+					<button type="button" class="btn btn-secondary">2001</button>
+					<button type="button" class="btn btn-secondary">2002</button>
+					<button type="button" class="btn btn-secondary">2003</button>
+					<button type="button" class="btn btn-secondary">2004</button>
+					<button type="button" class="btn btn-secondary">2005</button>
+				</div><!-- /.btn-group -->
+
+				<div class="btn-group">
+					<button type="button" class="btn btn-secondary">2006</button>
+					<button type="button" class="btn btn-secondary">2007</button>
+					<button type="button" class="btn btn-secondary">2008</button>
+					<button type="button" class="btn btn-secondary">2009</button>
+					<button type="button" class="btn btn-secondary">2010</button>
+					<button type="button" class="btn btn-secondary">2011</button>
+					<button type="button" class="btn btn-secondary">2012</button>
+					<button type="button" class="btn btn-secondary">2013</button>
+					<button type="button" class="btn btn-secondary">2014</button>
+					<button type="button" class="btn btn-secondary">2015</button>
+					<button type="button" class="btn btn-secondary">2016</button>
+				</div><!-- /.btn-group -->
+			</div>
+			<figure id="map" class="map col-12"></figure>
+		</div>
+	</main>
+	<div id="tooltip" class="tooltip">
+		Tooltip
+	</div>
+</body>
+</html>

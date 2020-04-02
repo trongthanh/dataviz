@@ -1,0 +1,59 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+/*====================================
+=            Main Layouts            =
+====================================*/
+
+.main {
+	max-width: 1280px;
+	margin: auto;
+}
+
+.map {
+	max-width: 720px;
+	margin: auto;
+}
+
+/*=====  End of Main Layouts  ======*/
+
+.tooltip {
+	background: #eee;
+	border: 1px #ccc solid;
+	position: absolute;
+}
+
+.tooltip h4,
+.tooltip p {
+	margin: 0;
+}
+
+/*=====================================
+=            SVG Customize            =
+=====================================*/
+
+.node circle {
+	fill: #fff;
+	stroke: steelblue;
+	stroke-width: 3px;
+}
+
+.node text {
+	font: 12px sans-serif;
+}
+
+.link {
+	fill: none;
+	stroke: #888;
+	stroke-width: 2px;
+}
+
+/*=====  End of SVG Customize  ======*/
